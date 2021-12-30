@@ -16,8 +16,8 @@
 }
 
 .profile-pic img {
-  width: 100%;
-  height: auto;
+  width: 20%;
+  height: 20%;
 }
 
 .tracker {
@@ -559,6 +559,7 @@ small {
 .blue-text {
   color: #00B4D5 !important;
 }
+
 /* .teal-text {
   color: #0b5e86 !important;
 } */
