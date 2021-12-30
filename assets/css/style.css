@@ -124,7 +124,7 @@
 /* body-color */
 
 body {
-  color: #333;
+  color: rgb(194, 36, 36);
   font-size: 18px;
 }
 
@@ -200,7 +200,7 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: whitesmoke;
   padding-left: 190px;
 }
 
@@ -237,7 +237,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: rgb(62, 33, 160);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -552,6 +552,13 @@ small {
   color: #008073 !important;
 }
 
+.blue-text {
+  color: #00B4D5 !important;
+}
+
+.blue-text {
+  color: #00B4D5 !important;
+}
 /* .teal-text {
   color: #0b5e86 !important;
 } */
@@ -562,9 +569,21 @@ small {
   background-color: #008073 !important;
 }
 
+.blue {
+  background-color: #00B4D5 !important;
+}
+
+.beige {
+  background-color: #F9EFE1 !important;
+}
+
 /* .teal {
   background-color: #00695c !important;
 } */
+
+.spacer {
+  height: 500px !important;
+}
 
 @media (min-width: 1200px) {
   #experience .container {
@@ -665,6 +684,10 @@ small {
   .card .card-content .card-title {
     font-size: 20px;
     line-height: 24px;
+  }
+  .card .card-content .card-subtitle {
+    font-size: 16px;
+    line-height: 18px;
   }
   #experience span.card-title {
     text-align: center;
