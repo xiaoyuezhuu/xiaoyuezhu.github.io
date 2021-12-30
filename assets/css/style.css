@@ -582,9 +582,6 @@ small {
   background-color: #00695c !important;
 } */
 
-.spacer {
-  height: 500px !important;
-}
 
 @media (min-width: 1200px) {
   #experience .container {
