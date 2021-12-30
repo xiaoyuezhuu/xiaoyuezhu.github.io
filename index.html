@@ -56,7 +56,7 @@
   <!-- Navigation Menu-->
   <!-- Nav class 1 -->
 
-  <nav class="hide-on-small-only">
+  <nav class="hide-on-small-only" style="width: 0px;">
     <ul class="side-nav fixed section table-of-contents">
 
       <li class="logo">
@@ -229,14 +229,14 @@
       <h3 class="page-title white-text blue">About</h3>
       <div class="container flow-text">
         <p>
-          I am recent neuroscience PhD from New York University. The title of my thesis is "Analyses of decision under
-          risk in rats".
+          I am recent neuroscience PhD from New York University. The title of my thesis is "
+          <a href="https://github.com/xiaoyuezhuu/dissertation/blob/main/xiaoyue_dissertation.pdf">Analyses of decision under risk in rats<a>".
           Originally from China, I majored in neuroscience in University of St. Andrews in Scotland, and published a
-          paper on the motorneurons of tadpoles with Dr. Wenchang Li.
+          <a href="https://www.eneuro.org/content/4/2/ENEURO.0073-17.2017">paper<a> on the motorneurons of tadpoles with Dr. Wenchang Li.
           I also exchanged one year abroad in University of California, Irvine, during which time I worked as a research
           assistant in Prof. Bruce McNaughton's lab.
           Motivated to learn more about mechanisms of cognition, I joined an international PhD program by NYU and NYU
-          Shanghai, advised by Prof. Jeffrey Erlich.
+          Shanghai, advised by Prof. <a href="https://www.erlichlab.org">Jeffrey Erlich<a>.
           With zero programming experience prior to PhD, I taught myself several languages and contributed to the
           development of a high-throughput animal training system.
           I developed various behavioral tasks studying decision making in rodents, performed brain inactivations, and
@@ -276,99 +276,27 @@
     </section>
 
 
-    <!-- Third Section: Experience -->
-
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
+    <!-- Third Section: Publications -->
+    <section id="publications" class="section scrollspy">
       <h3 class="page-title white-text blue">Publications</h3>
-      <div class="container">
+      <div class="container flow-text">
+      <p>
+        Zhu, Xiaoyue, Josh Moller-Mara, Sylvain Dubroqua, Chaofei Bao, and Jeffrey C. Erlich. 
+        <b><a href="https://www.biorxiv.org/content/10.1101/2021.11.19.469107v1">"Frontal but not parietal cortex is required for decisions under risk."</a></b>
+        bioRxiv (2021).
+      </p>
+      <p>
+        Zhu, Xiaoyue, and Jeffrey C. Erlich.
+        <b><a href="https://arxiv.org/abs/2112.12278">"A rodent paradigm for studying perceptual decisions under asymmetric reward."</a></b>
+        arXiv preprint arXiv:2112.12278 (2021).
+      </p>
+      <p>
+        Li, Wen-Chang, Xiao-Yue Zhu, and Emma Ritson.
+        <b><a href="https://www.eneuro.org/content/4/2/ENEURO.0073-17.2017">"Mechanosensory stimulation evokes acute concussion-like behavior by activating GIRKs coupled to muscarinic receptors in a simple vertebrate."</a></b>
+        Eneuro 4, no. 2 (2017).
+      </p>
+    </div>
 
-        <!-- Latest Experience -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.zhiffy.com/" target="_blank"><img alt="Zhiffy logo"
-                    src="/assets/img/exp-zhiffy-logo-1.webp" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.zhiffy.com/" target="_blank"
-                      class="teal-text hoverline">Zhiffy</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Software Engineer</div>
-            <ul>
-              <li>
-                Developed and managed the backend of an e-commerce platform using Flask, MongoDB, and AWS.
-              </li>
-              <li>
-                Worked on three web applications targeting customers, selling vendors, and admin users; built 50+
-                RESTful APIs with functionalities
-                such as login/sign up, view a product, add a product to cart, checkout the order, etc.
-              </li>
-              <li>Improved the response time by 20% by refactoring the codebase and changing database design and
-                queries.</li>
-              <li>Added a bulk upload feature which reduced the manual work of adding products into a database.</li>
-              <li>
-                <b>Tools:</b> Python, Flask, MongoDB
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>July 2020 - Nov 2020 | Hyderabad, India</span>
-          </div>
-        </div>
-
-
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.meditab.com" target="_blank"><img alt="Meditab logo"
-                    src="/assets/img/exp-meditab-logo-500x500.jpg" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="http://meditab.com" target="_blank"
-                      class="teal-text hoverline">Meditab</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Programmer Analyst</div>
-            <ul>
-              <li>
-                Customized a tree-based optimization algorithm that separates drugs into distinct groups to maximize the
-                concurrent execution of drug
-                dispenser robots; improved an optimization algorithm that reduced the cycle-time of the automation
-                process by 25%.
-              </li>
-              <li>
-                Devised a customized recursion algorithm to extend the functionality of the current environment to a
-                multi-robot and multi-system
-                environment
-              </li>
-              <li>
-                Built a modular video analytics app using Flask, OpenCV that tracks the location of each human in a
-                multi-camera environment;
-                utilized perspective transformation, object detection, and object tracking to find the location of a
-                human.
-              </li>
-              <li>Increased the speed of the video analytics app by 20% by using a customized YOLOv3 algorithm to
-                perform object detection and
-                DeepSORT algorithm for multi-object tracking.</li>
-              <li>
-                <b>Tools:</b> Python, Flask, OpenCV, Keras, Tensorflow, PyTorch
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Dec 2018 - July 2019 | Ahmedabad, India</span>
-          </div>
-        </div>
     </section>
 
 
@@ -377,7 +305,8 @@
       <h3 class="page-title white-text blue">Projects</h3>
       <div class="container">
         <div class="row">
-
+          
+          <!-- risky choice task -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -393,8 +322,6 @@
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
@@ -417,6 +344,7 @@
             </div>
           </div>
 
+          <!-- perceptual gambling task -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -454,6 +382,7 @@
             </div>
           </div>
 
+          <!-- risky modelling -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
@@ -493,18 +422,18 @@
             </div>
           </div>
 
-          <!-- VQA -->
+          <!-- smart alarm -->
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/project-aim_bert-bias.png"
-                  style="height: 100%; width: 100%" class="activator" />
+                <img alt="Screenshot of web app" src="assets/img/anomaly.png" style="height: 70%; width: 100%"
+                  class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Visual Question Answering<i
+                <span class="card-title activator blue-text hoverline">Smart alarm<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  An attention-based classification model that aims at generating an answer for a given input image.
+                  A smart alarm system for unsupervised anomaly detection in animal behaivoral data for neuroscience labs.
                 </p>
               </div>
               <div class="card-reveal">
@@ -513,128 +442,15 @@
                 <span class="card-title blue-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
-                    Memory for extracting question
-                    embeddings.</li>
-                  <li>Tested the model on the COCO dataset, abstract scenes images, and got 69% overall accuracy on the
-                    VQA evaluation metric.</li>
+                  <li>Written in python, course project for the machine learning class.</li>
+                  <li>It first performs ForeCA (forecastable component analysis) on the noisy multivariate time series to reduce dimensionality.</li>
+                  <li>It then performs ARIMA (autoregrdssive integrated moving average) on the individual ForeCA components to generate a prediction interval. </li>
+                  <li>The outliers in each ForeCA component are detected based on user-specified criteria.</li>
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/xiaoyuezhu/visual-question-answering" target="_blank" data-position="top"
-                    data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video Summarizer -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/computer-vision-v2-04.png"
-                  style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Video Summarizer<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A Seq2Seq model that generates a short summary of the given input video.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Incorporated CNN to detect and classify objects in the video frames and Long Short Term Memory for
-                    generating a summary.</li>
-                  <li>Evaluated the model on MSVD (Microsoft Video Description Corpus) dataset; achieved 0.77, 0.71,
-                    0.52 scores respectively on ROGUE,
-                    BLEU, METEOR evaluation metrics.</li>
-
-                </ul>
-                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/xiaoyuezhu/"
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/xiaoyuezhuu/smart_alarm"
                     target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Image Generator -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/gan.jpg" style="height: 100%; width: 100%"
-                  class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Image Generator<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  An image generator based on the concept of adversarial networks (GANs)
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Developed system was tested on a human-face database and loss was calculated by comparing the PCAs
-                    of generated and original image.</li>
-                  <li>Calculated difference in PCA was less than 10%, depicting the successful generation of an image by
-                    the generator.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/xiaoyuezhu/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Head Counting System -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app"
-                  src="/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg"
-                  style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator blue-text hoverline">Head Counting System<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A system that calculates the attendance of the class from a panoramic image of a live classroom.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Used Singular Value Decomposition for image compression; applied various image processing
-                    techniques and morphological operations to
-                    detect the number of heads.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/xiaoyuezhu/visual-question-answering" target="_blank" data-position="top"
-                    data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
@@ -648,14 +464,14 @@
     </section>
 
     <!-- Fifth Section: Certificates -->
-    <section id="Certificates" class="section scrollspy">
-      <h3 class="page-title white-text blue">Skills</h3>
+    <section id="certificates" class="section scrollspy">
+      <h3 class="page-title white-text blue">Certificates</h3>
       <div class="container">
         <div class="row">
           <div class="col s12 m6 l6">
             <div class="card" style="height: 450px;">
               <p align='center'><img src="assets/img/deeplearning.jpeg"
-                  style="width: 30%; height: 7%; border-radius: 50%;"></p>
+                  style="width: 25%; height: 25%; border-radius: 50%;"></p>
               <div class="card-content">
                 <p align='center'><span class="card-title blue-text">Deep Learning</span></p>
                 <p></p>
@@ -684,7 +500,7 @@
 
           <div class="col s12 m6 l6">
             <div class="card" style="height: 450px;">
-              <p align='center'><img src="assets/img/michigan.jpeg" style="width: 30%; height: 7%; border-radius: 50%;">
+              <p align='center'><img src="assets/img/michigan.jpeg" style="width: 25%; height: 25%;">
               </p>
               <div class="card-content">
                 <p align='center'><span class="card-title blue-text">Applied Data Science with Python</span></p>
@@ -714,7 +530,7 @@
           <div class="col s12 m6 l4">
             <div class="card" style="height: 350px;">
               <p align='center'><img src="assets/img/hopkins.png"
-                  style="width: 80%; height: 50%;"></p>
+                  style="width: 79%; height: 45%;"></p>
               <div class="card-content">
                 <p align='center'><span class="card-title blue-text"><a href="https://www.coursera.org/account/accomplishments/certificate/RTVYJB334A24">The Unix Workbench</a></span></p>
                 <p></p>
@@ -726,7 +542,7 @@
           <div class="col s12 m6 l4">
             <div class="card" style="height: 350px;">
               <p align='center'><img src="assets/img/davis.jpeg"
-                  style="width: 50%; height: 50%;"></p>
+                  style="width: 49%; height: 43%;"></p>
               <div class="card-content">
                 <p align='center'><span class="card-title blue-text"><a href="https://www.coursera.org/account/accomplishments/certificate/Z6Z6F9AY5AZN">SQL for Data Science</a></span></p>
                 <p></p>
@@ -738,7 +554,7 @@
           <div class="col s12 m6 l4">
             <div class="card" style="height: 350px;">
               <p align='center'><img src="assets/img/michigan.jpeg"
-                  style="width: 50%; height: 30%; border-radius: 50%"></p>
+                  style="width: 39%; height: 31%;"></p>
               <div class="card-content">
                 <p align='center'><span class="card-title blue-text"><a href="https://www.coursera.org/account/accomplishments/certificate/B52UX3TPP4TA">Python Data Structure</a></span></p>
                 <p></p>
@@ -760,7 +576,7 @@
           <div class="col s12 m6 l4">
             <div class="card">
               <p align='center'><img src="assets/img/nyu.png"
-                style="width: 50%; height: 50%;"></p>
+                style="width: 78%; height: 20%;"></p>
               <div class="card-content">
                 <p align='center'>
                   <span class="card-title" style="font-size: 20px;"><a href="https://www.nyu.edu/" target="_blank"
@@ -793,7 +609,7 @@
           <div class="col s12 m6 l4">
             <div class="card">
               <p align='center'><img src="assets/img/standrews.png"
-                style="width: 40%; height: 40%;"></p>
+                style="width: 65%; height: 20%;"></p>
               <div class="card-content">
                 <p align='center'>
                   <span class="card-title" style="font-size: 20px;"><a href="https://www.st-andrews.ac.uk/" target="_blank"
@@ -807,13 +623,9 @@
 
                 <ul>
                   <p>
-                    <b>Relevant Courseworks:</b>
+                    <b>Honours project</b>
                   <ul>
-                    <li>Data Structures and Algorithms</li>
-                    <li>Database Management Systems</li>
-                    <li>Operating Systems</li>
-                    <li>Machine Learning</li>
-                    <li>Computer Vision</li>
+                    Electrical Stimulation Induce Concussion-like Response in the Hatchlings of Xenopus Laevis
                   </ul>
                   </p>
 
