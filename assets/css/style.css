@@ -556,13 +556,6 @@ small {
   color: #00B4D5 !important;
 }
 
-.blue-text {
-  color: #00B4D5 !important;
-}
-
-/* .teal-text {
-  color: #0b5e86 !important;
-} */
 
 /* .teal */
 
@@ -578,9 +571,16 @@ small {
   background-color: #F9EFE1 !important;
 }
 
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: cen;
+}
+
 /* .teal {
   background-color: #00695c !important;
 } */
+
 
 
 @media (min-width: 1200px) {
@@ -620,8 +620,8 @@ small {
   }
   nav a.button-collapse, nav a.button-collapse i {
     color: #009688;
-    height: 56px;
-    line-height: 56px;
+    height: 0px;
+    line-height: 0px;
   }
   h3 {
     padding: 20px 30px;
