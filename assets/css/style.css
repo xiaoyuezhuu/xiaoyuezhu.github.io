@@ -220,7 +220,7 @@ dt {
 }
 
 ul.side-nav {
-  width: 230px;
+  width: 215px;
   background-color: #F9EFE1;
 }
 
@@ -357,7 +357,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0);
   height: 100%;
   left: 0;
   position: absolute;
